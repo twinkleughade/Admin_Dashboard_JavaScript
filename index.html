@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <form action="/login.html ">
+      <div id="head">
+        <div id="container">
+          <h1>Sign Up</h1>
+          <label for="">First Name</label>
+          <input type="text" placeholder="Enter firstt name" id="name" /><br />
+          <label for="">Last Name</label>
+          <input type="text" placeholder="Enter last name" id="name1" /><br />
+          <label for="">Enter Email</label>
+          <input type="text" placeholder="Enter your Email Address" id="email"/><br />
+          <label for=""> Password</label>
+          <input type="text" placeholder="Enter Password" id="psw" /><br />
+          <label for="">Confirm Password</label>
+          <input type="text" placeholder="Enter confirm Password" id="psw1" /><br />
+          <button onclick="information()">submit</button>
+        </div>
+      </div>
+      <div id="container1">
+        <h4>Already have an account?<button onclick="document.location.href='./login.html'">Login</button></h4>
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

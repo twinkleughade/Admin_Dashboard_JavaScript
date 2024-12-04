@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/*--------------------------------            sign up page           ----------------------------------- */
+body{
+    background-color: papayawhip;
+}
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    margin: 45px;
+}
+#container1{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+#container label{
+    padding: 5px;
+    font-size: 20px;
+}
+#container input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#container button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+#container button:hover{
+    color: black;
+    background-color:orange;
+}
+#container1 button{
+    border: none;
+    color: blue;
+}
+/* --------------------------------------------    login page    ---------------------------------------- */
+#loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: papayawhip;
+    margin-top: 120px;
+}
+#login h1{
+    padding: 10px;
+    font-size: 40px;
+}
+#login label{
+    padding: 10px;
+    font-size: 20px;
+}
+#login input{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+#login button{
+    padding: 5px;
+    background-color: whitesmoke;
+    color:black;
+    border-radius: 20px;
+    border:1px solid black;
+}
+#login button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/*--------------------------                  dashbpard page         --------------------------------------- */
+#data #navbar1 nav ul li h3{
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+#data{
+    width: 20wh;
+    height: 100vh;    
+
+}
+#data #navbar1{
+    height: 120px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+ #data #navbar1 nav ul li{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    width: 250px;
+    height: 100vh;
+    
+     
+}
+ #data #navbar1 nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    color: black;    
+}
+
+/* ---------------------   product    ----------------------------------- */
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;   
+}
+.container div img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.container div h3{
+    margin-left: 100px;
+}
+
+
+

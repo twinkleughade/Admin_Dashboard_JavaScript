@@ -1,0 +1,62 @@
+{
+  "user": [
+    {
+      "first name": "twinkle",
+      "Last name": "thakre",
+      "email": "twinklethakre@gmail.com",
+      "password": "1234",
+      "id": "782b"
+    },
+    {
+      "id": "9396",
+      "firstname": "riya",
+      "lastname": "roy",
+      "email": "riyaroy@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "product": [
+    {
+      "id": "16",
+      "imageurl": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/27419150/2024/4/11/e34e519d-b6e4-475b-84db-0107414d8a9c1712836783388-Lakme-Lumi-Smooth-AHA-Gel-Creme-with-BHA--PHA---50-g-3441712-1.jpg",
+      "pname": "creme",
+      "bname": "lakme",
+      "pprice": 999
+    },
+    {
+      "id": "a923",
+      "imageurl": "https://m.media-amazon.com/images/I/51vfRTf1ACL.jpg",
+      "pname": "lispstic",
+      "bname": "maybellines",
+      "pprice": 1300
+    },
+    {
+      "id": "98b8",
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeSK76j4aH0LgeTbZGfLGgDfJdy5MR4BDJmg&s",
+      "pname": "facial kit",
+      "bname": "lotus",
+      "pprice": "1700"
+    },
+    {
+      "id": "9490",
+      "imageurl": "https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/000000000494238374/SEK2xlQp2b-000000000494238374_1.jpg",
+      "pname": "lipstick",
+      "bname": "huda",
+      "pprice": "1500"
+    },
+    {
+      "id": "482a",
+      "imageurl": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/154045/2024/9/26/5aab3243-74da-42d7-bea7-06b490b19cdc1727332246527-Lakme-Sun-Expert-UV-Lotion-7691727332246040-1.jpg",
+      "pname": "sunscreen",
+      "bname": "lakme",
+      "pprice": "900"
+    },
+    {
+      "imageurl": "https://www.allurecosmetics.in/cdn/shop/products/Maybelline-New-York-Colossal-Waterproof-24H-Stay-Bold-Kajal-Twin-Pack-Of-2_20-1.jpg?v=1678258856",
+      "pname": "kajal",
+      "bname": "maybelline",
+      "pprice": "900",
+      "id": "f772"
+    }
+  ]
+}
